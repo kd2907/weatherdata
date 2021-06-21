@@ -1,5 +1,5 @@
 # Fetch data from openweather API and dump in Amazon S3 bucket
-This repository contains python script that fetched data from openweather API *[https://openweathermap.org/api](https://openweathermap.org/api)*, parses the data and dumps current weather and hourly forecast jsons in ```current_weather/``` and ```hourly_forecast/``` folder, respectively in weatherdatalake bucket.
+This repository contains python script that fetched data from openweather API *[https://openweathermap.org/api](https://openweathermap.org/api)*, parses the data and dumps current weather and hourly forecast jsons in ```weather_current/``` and ```forecast_hourly/``` folder, respectively in weatherdatalake bucket.
 
 # Install dependencies
 Run the following command on terminal:
